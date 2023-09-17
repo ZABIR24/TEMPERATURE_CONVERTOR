@@ -1,0 +1,64 @@
+/* CSS */
+
+/* body section. */
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container section */
+.container 
+{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading/header */
+h1 
+{
+    text-align: center;
+}
+
+/* field's label  */
+label 
+{
+    font-weight: bold;
+}
+
+/* input type */
+input[type="number"] 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* option/dropdown menu */
+select 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* convert button */
+button 
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* result */
+#result 
+{
+    margin-top: 10px;
+    font-weight: bold;
+}

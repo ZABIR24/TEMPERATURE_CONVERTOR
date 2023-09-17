@@ -1,0 +1,52 @@
+<!-- Temperature Converter. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head section. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <!-- CSS External file linking. -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<!-- head section ends. -->
+
+<!-- body section. -->
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <!-- fields were created. -->
+        <label for="temp">Enter Temperature:</label>
+        <input type="number" id="temp" placeholder="Enter temperature..." required>
+
+        <!-- option of Temperature type to be converted. -->
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value ="Kelvin">Kelvin</option>
+            <option value ="Reaumur">Reaumur</option>
+        </select>
+
+        <!-- option of Temperature type to be converted into. -->
+        <label for="to">To:</label>
+        <select id="to">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value ="Kelvin">Kelvin</option>
+            <option value ="Reaumur">Reaumur</option>
+        </select>
+
+        <!-- Convert button -->
+        <button onclick="convertTemperature()">Convert</button>
+        <div id="result"></div>
+    </div>
+
+    <!-- JavaScript External file linking. -->
+    <script src="Script.js"></script>
+</body>
+<!-- body section ends. -->
+</html>
